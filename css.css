@@ -46,7 +46,7 @@
 		}
 		 
 	section {
-		background-color: #9E9E9E;
+		background-color: #A9A9A9;
 		padding: 1%;
 		margin: 1%  25% 5% 2%;
 		 }
@@ -56,29 +56,44 @@
 		}
 	table
 		{
-		margin: 1%  2% 1% 3%; 
+		margin: 1%  3% 1% 3%; 
 		border-collapse: collapse;
+		
 		}
-	td, th
+	td
 		{
-		border-right: 0px solid gray;
+		border-right: 1px solid gray;
+		padding: 5px;
+		
 		}
+		th {
+			border-right: 1px solid gray;
+		border-bottom: 1px solid gray;	
+		}
+		
 		 
 	.text{
 		font-size: 2em;
 		margin: 1%  25% 5% 9%; 
 		 }
 	.coordonnées{
+
 		font-size: 1em;
 		position: relative;
 		top: 1%; left: 1%;
 		font-weight: normal;
 		font-style: italic;
 		 }
-	.images {
+		 
+		 .date{
+			 font-weight: bold;
+			 color: gray;
+		 }
+		 
+	#images {
 
-		width: 270px;
-		height: 250px;
+		width: 75px;
+		height: 75px;
 		padding: 0.5%;
 		margin: 2%;
 		float: right;
@@ -154,7 +169,14 @@
 		}
 	.loisirs{
 		margin: 0.5%  0.1% 0% 3%; 
-				font-style: italic;
+		display:inline
+		font-style: italic;
+		}
+		
+		#loisirs{
+		margin: 0.5%  0.1% 0% 3%; 
+		display:inline;
+		font-style: italic;
 		}
 		
 	.lieu {
@@ -171,5 +193,7 @@
 			font-family:Tw cen MT, sans-serif;
 			font-style: italic;
 		}
+		.gris{
+		background-color: silver;
 
-		
+		}
